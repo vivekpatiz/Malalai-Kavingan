@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Malalai Kavingan</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-175470225-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-175470225-1');
+</script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.9/jquery-ui.js" type="text/javascript"></script>
+<link href="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.9/themes/blitzer/jquery-ui.css" rel="stylesheet" type="text/css" />
+	<link rel="icon" href="tamil.png" type="image/png" sizes="30x30">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<!-- CSS only -->
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<style>
+		.mySlides {display: inline;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  z-index: 0;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+
+
+
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+
+
+
+/* Center the loader */
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid orange;
+  border-bottom: 16px solid orange;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: roatate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
+}
+
+	</style>
+  </head>
+  
+  <body>
+	
+	<script>
+		$(function () {
+		 $("#dialog1").ready(function () {
+			 $("#dialog").dialog({
+	 modal:true,
+	 title:"உங்கள் வருகைக்கு நன்றி",
+	 height: 320,
+	 width: 320,
+	
+	 
+	 
+	 dialogClass: "foo",
+	 //show: {effect: 'bounce', duration: 350, times: 7},
+	 show: {effect: 'fade', duration: 3000},
+	 //show: {effect: 'explode',duration: 3000},
+	 open: function (event, ui) {
+					 setTimeout(function () {
+						 $("#dialog").dialog("close");
+					 }, 8000);
+				 }
+ });
+ 
+ $(".ui-dialog-titlebar").css("background", "#353839");
+ 
+		 });
+	 });
+	 
+ 
+ 
+ 
+ </script>
+<script>
+	window.onscroll = function() {myFuncti()};
+	
+	function myFuncti() {
+	  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+	  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+	  var scrolled = (winScroll / height) * 100;
+	  document.getElementById("myBar").style.width = scrolled + "%";
+	}
+	</script>
+
+	<div id="dialog">
+		<div id="dialog1">
+		 <img src="home.png" alt="Me" width="100%" height="100" style="padding-top:0px;"></img>
+		 <P>என்றும்
+			 மாறாது தமிழ் மேல
+			 கொண்ட நேசம் சுவாசம்
+			 உள்ள வரையில் தமிழ்
+			 மேலே விசுவாசம் </p>
+		</div>
+	 </div>
+    <nav>
+      <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+	  </div>
+	  <b>
+      <ul class="nav-link">
+		  <img style="height: 60px;float: left;" src="tamil.png"></img>
+		  <li style="float: left;"><a href="#home">மழலை கவிஞன்</a></li>
+	  </ul>
+	  
+		<ul class="nav-links">
+		<li><a class="Click1" href="#about">யார் இவன்</a></li>
+        <li><a class="Click2" href="#service">சேவை</a></li>
+        <li><a class="Click3" href="#collection">கவிதை தொகுப்பு</a></li>
+	    <li><a class="Click4" href="#contact">தொடர்பு கொள்ள</a></li> 
+	</ul>
+</b>
+  
+<div class="header">
+	<div class="progress-container">
+	  <div class="progress-bar" id="myBar"></div>
+	</div>  
+  </div>
+  
+    </nav>
+
+    
+
+	<script src="script.js"></script>
+	
+	  </nav>
+	  <div id="home">
+	  <div style="width: 100%;background-color: #181818;">
+	  <div>
+	  <header style="max-width:1500px">
+		<img class="w3-image wid malalai img-responsive" src="home.png" alt="Me" width="100%" height="100" style="padding-top:0px;margin-top:12vh;"></img></header></div>
+		<div id="about"></div>
+		<hr style="background-color: black;">
+		
+		<div>
+		  <b>
+			  
+			  <div style=" font-family:sans-serif; align-content: center;width: 100%; padding: 15px 30px;color: #2196f3; color: black; background: #e7e7e7; font-size: 40px;text-align:center">
+				யார் இவன்
+			  </div>
+			
+			 <br><br>
+		  
+		  <p style="text-align: center;font-size: 25px;color: white;" >
+			கவிதை விற்பனைக்கா?????
+		உங்களின் அன்புடையாருக்காக
+		நான் எழுதி தரும் ஓர் கவிக்கு
+		இனி ரூபாய் 20 வாங்கப்படும்!!!
+		(Gpay/Phonepee)
+		
+		இந்த பணத்தை வைத்து
+		வார கடைசியில் ஏழை
+		எளியோர்களுக்கு
+		ஒரு வேளை உணவளிப்பதே
+		என் எண்ணம்!!!
+		
+		என்னை தவிர்த்து இங்கு
+		கவிதை எழுதவும் ஆள் உண்டு,
+		நான் கேட்ட 20 ரூபாயைத் தரவும் ஆள் உண்டு,
+		ஆனால் பசியில் வாடும் வயிற்றை நிரப்ப
+		ஆள் இல்லை!!! சிந்திப்போம்!!!
+		
+		புதிதாய் ஒரு தொடக்கம்
+		துணை நிற்பீர் என்று நம்புகிறேன்!!
+
+		  </b></p><br>
+		  <div style="width: 100%;padding: initial;">
+		  <center>
+			<video class="center" controls>
+			<source src="speech.mp4" type="video/mp4">
+			Your browser does not support HTML video.
+		  </video>
+		</center>
+		</div>
+		
+		<br>
+		      
+               
+			
+			
+		</div>
+		<div id="service"></div>
+	
+	  <br><br>
+	  <b>
+		<div style="margin: auto; font-family: sans-serif; align-content: center; width: 100%; padding: 15px 30px;color: black; background: #e7e7e7; font-size: 40px;text-align:center">
+			சேவை
+		   </div></b>
+		   <br><b>
+		   <br>
+		  <p style="text-align: center;font-size: 25px;color: white;">
+			இப்பக்கத்தின் மூலம் இதுவரை ஏராளமான சேவைகள் தொடர்ந்து செயல்படுத்தப்பட்டு வருகின்றது, கவிதைக்காக கிடைக்கும் பணத்தோடு, தானாக முன்வந்து நன்கொடை வழங்கும் உள்ளங்கள் எண்ணில் அடங்காத அளவில் உள்ளனர்.. இதன் மூலம் ஏறக்குறைய
+			1380 ஏழை எளிய நபர்களுக்கு உணவளித்துளோம்,
+			சென்னையில் New life New hope என்ற குழந்தைகள் காப்பகத்திற்கு 25 கிலோ அரிசி வழங்கியுள்ளோம்,
+			கொரோனா காலத்தில் வறுமையில் வாடும்
+			5 குடும்பங்களுக்கு அத்தியாவசிய மளிகை பொருட்கள் வழங்கியுள்ளோம்..
+			2 ஏழை மாணவர்களின் கல்விக்காக
+			ஒரு சிறிய தொகையினை வழங்கியுள்ளோம்,
+			என்னை ஆதரித்து ஒரு தூதவனாக தேர்ந்தெடுத்து களத்தில் இறங்கி உதவிட ஊக்கமளித்து தோள் கொடுத்த ஒவ்வொரு நல்லுள்ளங்களும் நான் நன்றி கடன்பட்டுளேன்.. இன்று போல் என்றும் நம் சேவை தொடர்ந்திட வேண்டும் என்று கேட்டுக்கொண்டு இது போல் உங்களால் முடிந்த உதவியை உங்கள் சுற்றத்தில் நீங்களே நேரடியாக இறங்கி செய்ய வேண்டும் என்பதே எனது விருப்பம் என்று சொல்லிக்கொள்கிறேன் நன்றி வணக்கம்!!
+			என்றும் என்றும் அன்புடன் மழலை கவிஞன்
+			
+		  </p></b><br><br>
+		  <div style="width: 100%;padding: initial;">
+			<center>
+		  <div class="slide">
+			<div class="mySlides fade">
+				<div class="numbertext"></div>
+				<img src="help/help1.jpeg" style="width:100%;"" class="zoom bod">
+				<div class="text"></div>
+			  </div>
+			  
+			  <div class="mySlides fade">
+				<div class="numbertext"></div>
+				<img src="help/help2.jpeg" style="width:100%" class="zoom bod">
+				<div class="text"></div>
+			  </div>
+			  
+			  <div class="mySlides fade">
+				<div class="numbertext"></div>
+				<img src="help/help3.jpeg" style="width:100%" class="zoom bod">
+				<div class="text"></div>
+			  </div>
+  
+			  <div class="mySlides fade">
+				  <div class="numbertext"></div>
+				  <img src="help/help4.jpeg" style="width:100%" class="zoom bod">
+				  <div class="text"></div>
+				</div>
+			  
+			<br>
+			
+			<div style="text-align:center">
+			  <span class="dot"></span> 
+			  <span class="dot"></span> 
+			  <span class="dot"></span> 
+			  <span class="dot"></span> 
+			</div>
+		</div>
+	</center></div>
+			<script>
+			var slideIndex = 0;
+			showSlides();
+			
+			function showSlides() {
+			  var i;
+			  var slides = document.getElementsByClassName("mySlides");
+			  var dots = document.getElementsByClassName("dot");
+			  for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";  
+			  }
+			  slideIndex++;
+			  if (slideIndex > slides.length) {slideIndex = 1}    
+			  for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			  }
+			  slides[slideIndex-1].style.display = "block";  
+			  dots[slideIndex-1].className += " active";
+			  setTimeout(showSlides, 2000); // Change image every 2 seconds
+			}
+			</script>
+			
+			  <div id="collection"></div>
+	
+	
+		<br><br>
+	  <br>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  <b>
+	  <div style="margin: auto; font-family: sans-serif; align-content: center; background-color: #2196f3;width: 100%; padding: 15px 30px;color: black; background: #e7e7e7; font-size: 40px;text-align:center">
+		கவிதை தொகுப்பு
+	   </div></b>
+	  <br>
+	  <br>
+		
+	  <!-- First Photo Grid-->
+	  <div>
+		<div class="w3-row-padding" id="#collection">
+		  <div class="w3-third w3-container w3-margin-bottom">
+			<img src="images\pic1.jpg" alt="Kavidhai" style="width:100%;height:450px;" class="zoom bod">
+			
+		  </div>
+		  <div class="w3-third w3-container w3-margin-bottom">
+			<img src="images\pic2.jpg" alt="Kavidhai" style="width:100%;height:450px" class="zoom bod">
+			
+		  </div>
+		  <div class="w3-third w3-container">
+			<img src="images\pic3.jpg" alt="Kavidhai" style="width:100%;height:450px;" class="zoom bod">
+			
+		  </div>
+		</div>
+		<div class="w3-row-padding" id="#collection">
+		  <div class="w3-third w3-container w3-margin-bottom">
+			<img src="images\pic4.jpg" alt="Kavidhai" style="width:100%;height:450px;" class="zoom bod">
+			
+		  </div>
+		  <div class="w3-third w3-container w3-margin-bottom">
+			<img src="images\pic5.jpg" alt="Kavidhai" style="width:100%;height:450px" class="zoom bod">
+			
+		  </div>
+		  <div class="w3-third w3-container">
+			<img src="images\pic6.jpg" alt="Kavidhai" style="width:100%;height:450px;" class="zoom bod">
+			
+		  </div>
+		</div>
+		<div class="w3-row-padding" id="#collection">
+		  <div class="w3-third w3-container w3-margin-bottom">
+			<img src="images\pic7.jpg" alt="Kavidhai" style="width:100%;height:450px;" class="zoom bod">
+			
+		  </div>
+		  <div class="w3-third w3-container w3-margin-bottom">
+			<img src="images\pic8.jpg" alt="Kavidhai" style="width:100%;height:450px" class="zoom bod">
+			
+		  </div>
+		  <div class="w3-third w3-container">
+			<img src="images\pic9.jpg" alt="Kavidhai" style="width:100%;height:450px;" class="zoom bod">
+			
+		  </div>
+		</div>
+		<div class="w3-row-padding" id="#collection">
+		  <div class="w3-third w3-container w3-margin-bottom">
+			<img src="images\pic10.jpg" alt="Kavidhai" style="width:100%;height:450px;" class="zoom bod">
+			
+		  </div>
+		  <div class="w3-third w3-container w3-margin-bottom">
+			<img src="images\pic11.jpg" alt="Kavidhai" style="width:100%;height:450px" class="zoom bod">
+			
+		  </div>
+		  <div class="w3-third w3-container">
+			<img src="images\pic12.jpg" alt="Kavidhai" style="width:100%;height:450px;" class="zoom bod">
+			
+		  </div>
+		</div>
+		<p class=" w3-center w3-content"><i style="color: white; margin-top: 10px;">எங்கள் எல்லா படைப்புகளையும் காண நீங்கள் ஆர்வமாக உள்ளீர்களா?</i></p>
+		<div style="text-align: center;">
+		<p style="text-decoration: none;">
+			<button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom">
+			  <a class="fa fa-download w3-margin-right download " href="கவிதை தொகுப்பு.pdf"> கவிதைகளைப் பதிவிறக்கம் செய்ய</a></button>
+		  </p></div>
+    </div>
+		
+	  
+	  
+	  
+	  
+	  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+		<b>
+		<div id="about" style="margin: auto; font-family: sans-serif; align-content: center; width: 100%; padding: 15px 30px;color: black; background: #e7e7e7; font-size: 40px;text-align:center">
+			தொடர்பு கொள்ள
+		   </div></b>
+		   <br>
+		   
+		<p class=" w3-center w3-content"><i style="color: white; margin-top: 10px;">நீங்கள் ஈர்க்கப்பட்டீர்களா? ஒரு குறிப்பை விடுங்கள்!</i></p>
+		<div class="w3-row w3-padding-32">
+		  <div class="w3-col m6 w3-large w3-margin-bottom">
+			<b><i class="fa fa-map-marker" style="color: white; font-size: 16px;">  தமிழ்நாடு, இந்தியா</i> <br><br><br>
+			<i class="fa fa-phone" style=" color: white;font-size: 16px;">  தொலைபேசி எண்: +919842938319</i> <br><br><br>
+			<i class="fa fa-envelope" style=" color: white;font-size: 15px;">  மின்னஞ்சல்: k.kavinkumar30@gmail.com </i></b> <br><br><br>
+		  </div>
+		  <div class="w3-col m6">
+			<form action="action.php" method="POST">
+			  <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+				<div class="w3-half">
+				  <input class="w3-input w3-border" type="text" placeholder="Name" required name="name" id="name">
+				</div><br>
+				<div class="w3-half">
+				  <input class="w3-input w3-border" type="text" placeholder="Email" required name="email" id="email">
+				</div><br>
+				<div class="w3-half">
+				  <input class="w3-input w3-border" type="number" placeholder="phone number" required name="number" id="name">
+				</div><br>
+			  </div><br>
+			  <textarea class="w3-input w3-border" type="text" placeholder="Message" required name="message" id="message"></textarea>
+			  
+			  <div style="text-align: center;">
+				<p style="text-decoration: none;">
+					<button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom" value="Send" name="submit"> அனுப்புக
+					</button>
+					</p></div>
+			</form>
+		  </div>
+		</div>
+	  </div>
+	
+		</div>
+	  <footer class="w3-container w3-padding-64 w3-center  w3-dark-grey w3-xlarge"style="text-align:left; text-decoration: none;">
+		<table style="padding: 0 20px 20px 20px; width: 100%;">
+			<td>
+		<a href="https://www.instagram.com/malalai_kavingan/" target="_blank"><img src="facebook.png" style="height: 80px; width: 80px;"></a></img>
+			</td>
+			<td>
+		<a href="https://www.instagram.com/malalai_kavingan/" target="_blank"><img src="insta.png" style="height: 80px; width: 80px;"></a></img>
+			 </td>
+			 <td>
+		<a href="https://www.instagram.com/malalai_kavingan/" target="_blank"><img src="twitter.png" style="height: 80px; width: 80px;"></a></img>
+	          </td>	
+	</table> 
+		<p class="w3-medium">Powered by Malalai Kavingan</p>
+	  
+	  </footer>
+	  </div>
+		
+	  </div>
+	</div>
+	  
+	  </div>
+	  
+	  
+	  
+	  
+ 
+  </body>
+</html>
